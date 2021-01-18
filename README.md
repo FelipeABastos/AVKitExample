@@ -1,4 +1,4 @@
-# meTube
+# AVKit
 
 This app will explore how to run Audios and Videos, and how to manipulate them using AVKit.
 
