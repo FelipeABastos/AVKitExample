@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547B7DBC25AE64BB006E4459 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B7DBB25AE64BB006E4459 /* MovieViewController.swift */; };
+		547B7DBF25AE7087006E4459 /* Ocean.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 547B7DBE25AE7087006E4459 /* Ocean.mp4 */; };
+		54E8F2E025AD0CAE00346F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E8F2DF25AD0CAE00346F12 /* AppDelegate.swift */; };
+		54E8F2E225AD0CAE00346F12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E8F2E125AD0CAE00346F12 /* SceneDelegate.swift */; };
+		54E8F2E425AD0CAE00346F12 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E8F2E325AD0CAE00346F12 /* PlayerViewController.swift */; };
+		54E8F2E725AD0CAE00346F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E8F2E525AD0CAE00346F12 /* Main.storyboard */; };
+		54E8F2E925AD0CB000346F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E8F2E825AD0CB000346F12 /* Assets.xcassets */; };
+		54E8F2EC25AD0CB000346F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E8F2EA25AD0CB000346F12 /* LaunchScreen.storyboard */; };
+		54E8F30325AD161E00346F12 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E8F30225AD161E00346F12 /* Extensions.swift */; };
+		54E8F30725AD18AC00346F12 /* Ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54E8F30625AD18AC00346F12 /* Ocean.mp3 */; };
+		54E8F30C25AD1BD100346F12 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E8F30B25AD1BD100346F12 /* Audio.swift */; };
+		54E8F31025AD1D4900346F12 /* Ilusão.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54E8F30F25AD1D4900346F12 /* Ilusão.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		547B7DBB25AE64BB006E4459 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		547B7DBE25AE7087006E4459 /* Ocean.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ocean.mp4; sourceTree = "<group>"; };
+		54E8F2DC25AD0CAE00346F12 /* Scotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E8F2DF25AD0CAE00346F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54E8F2E125AD0CAE00346F12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54E8F2E325AD0CAE00346F12 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		54E8F2E625AD0CAE00346F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54E8F2E825AD0CB000346F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54E8F2EB25AD0CB000346F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54E8F2ED25AD0CB000346F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E8F30225AD161E00346F12 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		54E8F30625AD18AC00346F12 /* Ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ocean.mp3; sourceTree = "<group>"; };
+		54E8F30B25AD1BD100346F12 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		54E8F30F25AD1D4900346F12 /* Ilusão.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ilusão.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54E8F2D925AD0CAE00346F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547B7DBA25AE64A7006E4459 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				54E8F2E325AD0CAE00346F12 /* PlayerViewController.swift */,
+				547B7DBB25AE64BB006E4459 /* MovieViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		54E8F2D325AD0CAE00346F12 = {
+			isa = PBXGroup;
+			children = (
+				54E8F2DE25AD0CAE00346F12 /* Scotify */,
+				54E8F2DD25AD0CAE00346F12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54E8F2DD25AD0CAE00346F12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54E8F2DC25AD0CAE00346F12 /* Scotify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54E8F2DE25AD0CAE00346F12 /* Scotify */ = {
+			isa = PBXGroup;
+			children = (
+				54E8F2F425AD0CBA00346F12 /* Application */,
+				54E8F2F625AD0DE100346F12 /* Files */,
+				54E8F2FB25AD157600346F12 /* Class */,
+				54E8F30A25AD1BC600346F12 /* Entities */,
+				547B7DBA25AE64A7006E4459 /* Controllers */,
+				54E8F2E525AD0CAE00346F12 /* Main.storyboard */,
+			);
+			path = Scotify;
+			sourceTree = "<group>";
+		};
+		54E8F2F425AD0CBA00346F12 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				54E8F2DF25AD0CAE00346F12 /* AppDelegate.swift */,
+				54E8F2E125AD0CAE00346F12 /* SceneDelegate.swift */,
+				54E8F2E825AD0CB000346F12 /* Assets.xcassets */,
+				54E8F2EA25AD0CB000346F12 /* LaunchScreen.storyboard */,
+				54E8F2ED25AD0CB000346F12 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		54E8F2F625AD0DE100346F12 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				54E8F30F25AD1D4900346F12 /* Ilusão.mp3 */,
+				54E8F30625AD18AC00346F12 /* Ocean.mp3 */,
+				547B7DBE25AE7087006E4459 /* Ocean.mp4 */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		54E8F2FB25AD157600346F12 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				54E8F30225AD161E00346F12 /* Extensions.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		54E8F30A25AD1BC600346F12 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				54E8F30B25AD1BD100346F12 /* Audio.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54E8F2DB25AD0CAE00346F12 /* Scotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E8F2F025AD0CB000346F12 /* Build configuration list for PBXNativeTarget "Scotify" */;
+			buildPhases = (
+				54E8F2D825AD0CAE00346F12 /* Sources */,
+				54E8F2D925AD0CAE00346F12 /* Frameworks */,
+				54E8F2DA25AD0CAE00346F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scotify;
+			productName = Scotify;
+			productReference = 54E8F2DC25AD0CAE00346F12 /* Scotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54E8F2D425AD0CAE00346F12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					54E8F2DB25AD0CAE00346F12 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 54E8F2D725AD0CAE00346F12 /* Build configuration list for PBXProject "Scotify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54E8F2D325AD0CAE00346F12;
+			productRefGroup = 54E8F2DD25AD0CAE00346F12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54E8F2DB25AD0CAE00346F12 /* Scotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54E8F2DA25AD0CAE00346F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E8F2EC25AD0CB000346F12 /* LaunchScreen.storyboard in Resources */,
+				547B7DBF25AE7087006E4459 /* Ocean.mp4 in Resources */,
+				54E8F30725AD18AC00346F12 /* Ocean.mp3 in Resources */,
+				54E8F31025AD1D4900346F12 /* Ilusão.mp3 in Resources */,
+				54E8F2E925AD0CB000346F12 /* Assets.xcassets in Resources */,
+				54E8F2E725AD0CAE00346F12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E8F2D825AD0CAE00346F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E8F2E425AD0CAE00346F12 /* PlayerViewController.swift in Sources */,
+				54E8F2E025AD0CAE00346F12 /* AppDelegate.swift in Sources */,
+				54E8F2E225AD0CAE00346F12 /* SceneDelegate.swift in Sources */,
+				54E8F30325AD161E00346F12 /* Extensions.swift in Sources */,
+				54E8F30C25AD1BD100346F12 /* Audio.swift in Sources */,
+				547B7DBC25AE64BB006E4459 /* MovieViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54E8F2E525AD0CAE00346F12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E8F2E625AD0CAE00346F12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54E8F2EA25AD0CB000346F12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E8F2EB25AD0CB000346F12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54E8F2EE25AD0CB000346F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54E8F2EF25AD0CB000346F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54E8F2F125AD0CB000346F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6537772LQ5;
+				INFOPLIST_FILE = Scotify/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FelipeBastos.Scotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54E8F2F225AD0CB000346F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6537772LQ5;
+				INFOPLIST_FILE = Scotify/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FelipeBastos.Scotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54E8F2D725AD0CAE00346F12 /* Build configuration list for PBXProject "Scotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E8F2EE25AD0CB000346F12 /* Debug */,
+				54E8F2EF25AD0CB000346F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E8F2F025AD0CB000346F12 /* Build configuration list for PBXNativeTarget "Scotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E8F2F125AD0CB000346F12 /* Debug */,
+				54E8F2F225AD0CB000346F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54E8F2D425AD0CAE00346F12 /* Project object */;
+}
